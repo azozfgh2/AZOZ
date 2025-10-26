@@ -4,11 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ملف أعمالي - عبدالعزيز فهد الهجالي</title>
-    <!-- Tailwind CSS --><script src="https://cdn.tailwindcss.com"></script>
-    <!-- Google Fonts: Inter --><link rel="preconnect" href="https://fonts.googleapis.com">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts: Almarai -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@400;700&display=swap" rel="stylesheet">
-    <!-- Font Awesome for social icons --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <!-- Font Awesome (للأيقونات) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
     <style>
         body {
             font-family: 'Almarai', sans-serif;
@@ -25,7 +32,8 @@
 </head>
 <body class="bg-gray-900 text-gray-200">
 
-    <!-- Header / Navigation Bar --><header class="bg-gray-800/80 backdrop-blur-sm sticky top-0 z-50">
+    <!-- Header -->
+    <header class="bg-gray-800/80 backdrop-blur-sm sticky top-0 z-50">
         <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
             <div class="flex items-center space-x-2 space-x-reverse">
                 <span class="bg-cyan-500 rounded-full w-8 h-8 flex items-center justify-center text-white font-bold">AZOZ</span>
@@ -36,14 +44,18 @@
                 <a href="#about" class="hover:text-cyan-400 transition-colors">عني</a>
                 <a href="#my-urls" class="hover:text-cyan-400 transition-colors">روابـطـي</a>
                 <a href="#my-products" class="hover:text-cyan-400 transition-colors">منتجاتي</a>
+                <!-- رابط القسم الجديد -->
+                <a href="#latest-activity" class="hover:text-cyan-400 transition-colors">تفاعلاتي</a>
                 <a href="#contact" class="hover:text-cyan-400 transition-colors">تواصل</a>
             </div>
         </nav>
     </header>
 
-    <!-- Main Content --><main class="container mx-auto px-6 py-12">
+    <!-- Main Content -->
+    <main class="container mx-auto px-6 py-12">
 
-        <!-- Home Page / Hero Section --><section id="home" class="text-center py-20 bg-gradient-to-r from-purple-600 to-cyan-500 rounded-lg shadow-xl relative overflow-hidden">
+        <!-- Hero Section -->
+        <section id="home" class="text-center py-20 bg-gradient-to-r from-purple-600 to-cyan-500 rounded-lg shadow-xl relative overflow-hidden">
             <div class="absolute inset-0 bg-black opacity-30"></div>
             <div class="relative z-10 p-8">
                 <h1 class="text-5xl md:text-6xl font-extrabold leading-tight mb-4 text-white drop-shadow-lg">
@@ -61,7 +73,8 @@
             </div>
         </section>
 
-        <!-- About Me Section --><section id="about" class="py-20">
+        <!-- About Me Section -->
+        <section id="about" class="py-20">
             <div class="max-w-4xl mx-auto bg-gray-800 p-8 rounded-lg shadow-xl flex flex-col md:flex-row items-center space-y-6 md:space-y-0 md:space-x-8 md:space-x-reverse">
                 <div class="flex-shrink-0">
                     <div class="bg-white rounded-lg p-2 shadow-md">
@@ -77,23 +90,27 @@
             </div>
         </section>
 
-        <!-- My URLs Section --><section id="my-urls" class="py-20">
+        <!-- My URLs Section -->
+        <section id="my-urls" class="py-20">
             <h2 class="text-4xl font-bold text-center mb-12">روابـطـي</h2>
             <p class="text-center text-lg text-gray-400 mb-8">هنا توجد الروابط التي أستخدمها.</p>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- URL Tile 1 --><a href="#" class="block bg-gray-800 rounded-lg p-6 text-center shadow-lg transform hover:-translate-y-2 transition-transform duration-300">
+                <!-- Link Card 1 -->
+                <a href="#" class="block bg-gray-800 rounded-lg p-6 text-center shadow-lg transform hover:-translate-y-2 transition-transform duration-300">
                     <div class="w-24 h-24 mx-auto bg-gray-700 rounded-lg flex items-center justify-center text-3xl font-bold text-gray-300 mb-4">
                         Tile 1
                     </div>
                     <p class="text-lg text-white font-semibold">رابط 1</p>
                 </a>
-                <!-- URL Tile 2 --><a href="#" class="block bg-gray-800 rounded-lg p-6 text-center shadow-lg transform hover:-translate-y-2 transition-transform duration-300">
+                <!-- Link Card 2 -->
+                <a href="#" class="block bg-gray-800 rounded-lg p-6 text-center shadow-lg transform hover:-translate-y-2 transition-transform duration-300">
                     <div class="w-24 h-24 mx-auto bg-gray-700 rounded-lg flex items-center justify-center text-3xl font-bold text-gray-300 mb-4">
                         Tile 2
                     </div>
                     <p class="text-lg text-white font-semibold">رابط 2</p>
                 </a>
-                <!-- URL Tile 3 --><a href="#" class="block bg-gray-800 rounded-lg p-6 text-center shadow-lg transform hover:-translate-y-2 transition-transform duration-300">
+                <!-- Link Card 3 -->
+                <a href="#" class="block bg-gray-800 rounded-lg p-6 text-center shadow-lg transform hover:-translate-y-2 transition-transform duration-300">
                     <div class="w-24 h-24 mx-auto bg-gray-700 rounded-lg flex items-center justify-center text-3xl font-bold text-gray-300 mb-4">
                         Tile 3
                     </div>
@@ -102,23 +119,27 @@
             </div>
         </section>
 
-        <!-- My Products Section --><section id="my-products" class="py-20">
+        <!-- My Products Section -->
+        <section id="my-products" class="py-20">
             <h2 class="text-4xl font-bold text-center mb-12">منتجاتي</h2>
             <p class="text-center text-lg text-gray-400 mb-8">هنا منتجات التسوق الخاصة بي.</p>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Product Card 1 --><a href="#" class="block bg-gray-800 rounded-lg overflow-hidden shadow-lg transform hover:-translate-y-2 transition-transform duration-300">
-                    <img src="C:\Users\fahdg\AZOZ\docs\Images\xY8KMMkkJ9GyegGfw2xR4nWjYodj5zQOzM9G3SQt.jpg" alt="شاهي أحمر"class="w-full h-48 object-cover">
+                <!-- Product Card 1 -->
+                <a href="#" class="block bg-gray-800 rounded-lg overflow-hidden shadow-lg transform hover:-translate-y-2 transition-transform duration-300">
+                    <img src="C:\Users\fahdg\AZOZ\docs\Images\xY8KMMkkJ9GyegGfw2xR4nWjYodj5zQOzM9G3SQt.jpg" alt="المنتج 1" class="w-full h-48 object-cover">
                     <div class="p-4 text-center">
                         <h3 class="text-xl font-bold text-white">شاهي أحمر</h3>
                     </div>
                 </a>
-                <!-- Product Card 2 --><a href="#" class="block bg-gray-800 rounded-lg overflow-hidden shadow-lg transform hover:-translate-y-2 transition-transform duration-300">
-                    <img src="https://placehold.co/600x400/1a202c/718096?text=منتج+2" alt="شاهي أحمر" class="w-full h-48 object-cover">
+                <!-- Product Card 2 -->
+                <a href="#" class="block bg-gray-800 rounded-lg overflow-hidden shadow-lg transform hover:-translate-y-2 transition-transform duration-300">
+                    <img src="https://placehold.co/600x400/1a202c/718096?text=منتج+2" alt="المنتج 2" class="w-full h-48 object-cover">
                     <div class="p-4 text-center">
                         <h3 class="text-xl font-bold text-white">منتج 2</h3>
                     </div>
                 </a>
-                <!-- Product Card 3 --><a href="#" class="block bg-gray-800 rounded-lg overflow-hidden shadow-lg transform hover:-translate-y-2 transition-transform duration-300">
+                <!-- Product Card 3 -->
+                <a href="#" class="block bg-gray-800 rounded-lg overflow-hidden shadow-lg transform hover:-translate-y-2 transition-transform duration-300">
                     <img src="https://placehold.co/600x400/1a202c/718096?text=منتج+3" alt="المنتج 3" class="w-full h-48 object-cover">
                     <div class="p-4 text-center">
                         <h3 class="text-xl font-bold text-white">منتج 3</h3>
@@ -126,11 +147,60 @@
                 </a>
             </div>
         </section>
+        
+        <!-- ***** القسم الجديد: أحدث التفاعلات ***** -->
+        <section id="latest-activity" class="py-20">
+            <h2 class="text-4xl font-bold text-center mb-12">أحدث تفاعلاتي ومقاطعي</h2>
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                
+                <!-- بطاقة اليوتيوب -->
+                <div class="bg-gray-800 rounded-lg shadow-lg overflow-hidden">
+                    <h3 class="text-2xl font-bold p-6 text-white">أحدث مقطع يوتيوب</h3>
+                    <p class="px-6 pb-4 text-gray-400 text-sm">
+                        ملاحظة: لتغيير الفيديو، اضغط "مشاركة" ثم "تضمين" (Embed) على مقطعك في يوتيوب، وانسخ الرابط `src` وضعه في الكود.
+                    </p>
+                    <!-- مشغل اليوتيوب -->
+                    <div class="aspect-video">
+                        <iframe 
+                            class="w-full h-full" 
+                            src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+                            title="YouTube video player" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
 
-        <!-- Connect Page / Contact Section --><section id="contact" class="py-20">
+                <!-- بطاقة تويتر -->
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6">
+                    <h3 class="text-2xl font-bold mb-4 text-white">أحدث تغريداتي</h3>
+                    <p class="pb-4 text-gray-400 text-sm">
+                        ملاحظة: لتغيير الحساب، استبدل الرابط `https://twitter.com/TwitterDev` في الكود برابط حسابك. (هذا سيتحدث تلقائياً).
+                    </p>
+                    <!-- ويدجت تويتر -->
+                    <a class="twitter-timeline" data-height="500" data-theme="dark" href="https://twitter.com/TwitterDev?ref_src=twsrc%5Etfw">Tweets by TwitterDev</a> 
+                </div>
+
+                <!-- بطاقة تيك توك -->
+                <div class="bg-gray-800 rounded-lg shadow-lg p-6">
+                     <h3 class="text-2xl font-bold mb-4 text-white">أحدث مقطع تيك توك</h3>
+                     <p class="pb-4 text-gray-400 text-sm">
+                        ملاحظة: لتغيير الفيديو، اذهب للمقطع في تيك توك، اضغط "نسخ كود التضمين" (Copy embed code)، والصقه في الكود.
+                    </S>
+                    <!-- ويدجت تيك توك (مثال) -->
+                    <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@tiktok/video/7318106821300079918" data-video-id="7318106821300079918" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@tiktok" href="https://www.tiktok.com/@tiktok?refer=embed">@tiktok</a> <p>This is what the inside of a TikTok looks like</p> <a target="_blank" title="♬ original sound - TikTok" href="https://www.tiktok.com/music/original-sound-7318106871929309998?refer=embed">♬ original sound - TikTok</a> </section> </blockquote>
+                </div>
+            </div>
+        </section>
+        <!-- ***** نهاية القسم الجديد ***** -->
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-20">
             <div class="max-w-3xl mx-auto">
                 <h2 class="text-4xl font-bold text-center mb-10">تواصل معي</h2>
                 <div class="bg-gray-800 p-8 rounded-lg shadow-2xl">
+                    <!-- نموذج Formspree لإرسال الرسائل إلى azozfgh2@gmail.com -->
                     <form action="https://formspree.io/f/mknllqae" method="POST">
                         <div class="mb-5">
                             <label for="contact-name" class="block mb-2 text-sm font-medium text-gray-300">الاسم</label>
@@ -149,21 +219,22 @@
                         </button>
                     </form>
 
-                    <!-- Social Media Links --><div class="mt-8 text-center">
+                    <!-- Social Media Links -->
+                    <div class="mt-8 text-center">
                         <h3 class="text-2xl font-bold mb-4 text-white">تابعني على:</h3>
                         <div class="flex justify-center space-x-6 space-x-reverse">
-                            <a href="https://www.tiktok.com/@3zoz_fgh?_t=ZS-90nUFnv0zav&_r=1" class="text-gray-400 hover:text-white transition-colors">
+                            <a href="#" class="text-gray-400 hover:text-white transition-colors">
                                 <i class="fab fa-tiktok text-4xl"></i>
                             </a>
-                            <a href="https://www.instagram.com/azoz_fgh/?igsh=enowcGpoaHF4a2Qx#" class="text-gray-400 hover:text-white transition-colors">
+                            <a href="#" class="text-gray-400 hover:text-white transition-colors">
                                 <i class="fab fa-instagram text-4xl"></i>
                             </a>
-                            <a href="https://www.snapchat.com/@azozfgh2?share_id=Wzmn12UZrW0&locale=ar-MA" class="text-gray-400 hover:text-white transition-colors">
+                            <a href="#" class="text-gray-400 hover:text-white transition-colors">
                                 <i class="fab fa-snapchat-ghost text-4xl"></i>
                             </a>
-                            <a href="https://www.youtube.com/@3zoz_fgh" class="text-gray-400 hover:text-white transition-colors">
+                            <a href="#" class="text-gray-400 hover:text-white transition-colors">
                                 <i class="fab fa-youtube text-4xl"></i>
-                            </a>
+</a>
                         </div>
                     </div>
                 </div>
@@ -172,11 +243,17 @@
 
     </main>
 
-    <!-- Footer --><footer class="bg-gray-800">
+    <!-- Footer -->
+    <footer class="bg-gray-800">
         <div class="container mx-auto px-6 py-6 text-center text-gray-400">
-            <p>&copy; 2025 جميع الحقوق محفوظة. عبدالعزيز فهد الحجيلي.</p>
+            <p>&copy; 2024 جميع الحقوق محفوظة. عبدالعزيز فهد الهجالي.</p>
         </div>
     </footer>
+    
+    <!-- السكريبتات الخاصة بالويدجتس (تويتر وتيك توك) -->
+    <!-- يجب وضعها قبل إغلاق وسم </body> -->
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <script async src="https://www.tiktok.com/embed.js"></script>
 
 </body>
 </html>
